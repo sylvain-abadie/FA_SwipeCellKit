@@ -30,5 +30,5 @@ public enum SwipeState: Int {
         self = orientation == .left ? .left : .right
     }
     
-    var isActive: Bool { return self != .center }
+    public var isActive: Bool { return self != .center }
 }

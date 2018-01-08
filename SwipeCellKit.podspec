@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-   s.name = 'FA_SwipeCellKit'
+   s.name = 'SwipeCellKit'
    s.version = '2.0.1'
    s.license = 'MIT'
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
    s.social_media_url = 'https://twitter.com/mkurabi'
    s.author = 'Mohammad Kurabi'
 
-   s.source = { :git => 'https://github.com/sylvain-abadie/SwipeCellKit.git', :tag => s.version }
+   s.source = { :git => 'https://github.com/SwipeCellKit/SwipeCellKit.git', :tag => s.version }
    s.source_files = 'Source/*.swift'
 
    s.ios.deployment_target = '9.0'
